@@ -1,46 +1,56 @@
-# Getting Started with Create React App
+# NPM-package-search
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### Technologies Used
 
-## Available Scripts
+- ReactJs
+- Typescript
+- Redux
 
-In the project directory, you can run:
 
-### `yarn start`
+### Things Learned
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- Implementing React and redux with typescript.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
 
-### `yarn test`
+## Setting up NPM-package-search
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `yarn build`
+### Prerequisites
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+#### Node.js
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Before you can start working on DevSpace, you need to have Node.js
+installed on your machine. The currently supported versions are `10.15.0` or greater.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+To download Node.js visit https://nodejs.org/en/download/.
 
-### `yarn eject`
+_NOTE: You can use a tool like [`NVM`](https://github.com/creationix/nvm)
+or [`N`](https://github.com/tj/n) to install and manage multiple node versions_
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+#### Verify Prerequisites
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+You can verify your setup by running the following commands in your terminal:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+```bash
+$ node -v
+```
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+### Install Dependencies
 
-## Learn More
+Once you have Node.js and `yarn` installed on your machine and have validated
+that you are running the proper version, you can set up the development environment
+by running the following at the root of DevSpace:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```bash
+$ npm i
+$ cd client
+$ npm i
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Running devSpace on your local server
+
+To run the project locally, run the following command at the root of DevSpace:
+
+```bash
+$ npm start
+```
